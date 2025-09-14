@@ -9,9 +9,7 @@ import { SidebarInset, SidebarProvider } from "@/components/ui/sidebar";
 import data from "./data.json";
 
 import Loading from "./loading";
-import { signOut } from "next-auth/react";
 import { useSession } from "next-auth/react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function DashboardPage() {
