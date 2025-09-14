@@ -4,7 +4,7 @@ import type { NextAuthConfig } from "next-auth";
 
 
 export default {
-  secret: process.env.AUTH_SECRET,  //exiger en production non en local
+  secret: process.env.NEXTAUTH_SECRET,  //exiger en production non en local
   providers: [
     GitHub({
     clientId: process.env.AUTH_GITHUB_ID,
