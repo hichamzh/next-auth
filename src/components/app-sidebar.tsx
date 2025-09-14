@@ -33,7 +33,6 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/sidebar";
 import Link from "next/link";
-import { object } from "zod";
 const data = {
   user: {
     name: "shadcn",

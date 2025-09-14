@@ -21,7 +21,7 @@ export default function Home() {
           </p>
           <p className="mb-4 text-green-500 text-center text-sm">
             <strong>Note :</strong> Ceci est une simple découverte de NextAuth.
-            Aucune donnée personnelle n'est utilisée ou stockée.
+            Aucune donnée personnelle n&apos;est utilisée ou stockée.
           </p>
           <Link
             href="/dashboard"
